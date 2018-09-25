@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fiksit</title>
+
+    <link rel="stylesheet" href="fiksit.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <div class="header">
+
+      <a href="index.html">
+        <img src="logo.png" alt="logo" id="logo">
+      </a>
+
+      <div class="navigation">
+        <a href="./index.html">KOTI</a>
+        <a href="./pisteet.html">HUOLTOPISTEET</a>
+      </div>
+    </div>
+    <div class="static_core">
+      <div class="brand_hover">
+        <div  id="brand_button" onclick="display('brand_model')">HINNASTO</div>
+        <div id="brand_model" style="display:none">
+          <div class="iphone_hover">
+            <div  class="brand" id="iphone_brand" onclick="display('iphone_list'); backgroundColor(this.id);" style="background-color:ghostwhite; color:rgb(58, 83, 155)">iPhone</div>
+            <div class="repair_list" id="iphone_list" style="display:none;">
+              <div class="flex">
+                <a href="huolto/iphone/näyttö.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/näytönvaihto.png" alt="näytön vaihto" class="repair_icon">
+                    <p>NÄYTÖN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/iphone/akku.html">
+                  <div class="ikoni">
+                    <img src="ikonit/akku.png " alt="akun vaihto" class="repair_icon" >
+                    <p>AKUN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/iphone/latausliitin.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/latausportti.png" alt="latausliittimenvaihto" class="repair_icon" id="liiankorkea_logo">
+                    <p id="liiankorkea">LATAUSPORTIN VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/iphone/kuulokeliitin.html">
+                  <div class="ikoni">
+                    <img src="ikonit/kuulokeliitin.png" alt="kuulokeliittimenvaihto" class="repair_icon" id="liiankorkea_logo">
+                    <p id="liiankorkea">KUULOKELIITTIMEN VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/iphone/mikrofoni.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/mikrofoni.png" alt="mikorofoninvaihto" class="repair_icon">
+                    <p>MIKROFONIN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/iphone/kaiutin.html">
+                  <div class="ikoni">
+                    <img src="ikonit/kaiutin.png" alt="kaiuttimenvaihto" class="repair_icon">
+                    <p>KAIUTTIMEN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/iphone/virtanäppäin.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/virtanäppäin.png" alt="virtanäppäimenvaihto" class="repair_icon">
+                    <p>VIRTANÄPPÄIMEN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/iphone/volyyminäppäin.html">
+                  <div class="ikoni">
+                    <img src="ikonit/volyyminäppäin.png" alt="volyyminäppäimenvaihto" class="repair_icon">
+                    <p>VOLYYMINÄPPÄIMEN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/iphone/kotinäppäin.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/kotinäppäin.png" alt="kotinäppäimenvaihto" class="repair_icon">
+                    <p>KOTINÄPPÄIMEN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/iphone/kamera.html">
+                  <div class="ikoni">
+                    <img src="ikonit/kamera.png" alt="kameranvaihto" class="repair_icon">
+                    <p>KAMERAN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/iphone/kameralinssi.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/linssi.png" alt="kameralinssinvaihto" class="repair_icon">
+                    <p>KAMERALINSSIN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="./vesivahinko.html">
+                  <div class="ikoni">
+                    <img src="ikonit/vesivahinko.png" alt="vesivahinko" class="repair_icon">
+                    <p>VESIVAHINKO</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="ipad_hover" >
+            <div  class="brand" id="ipad_brand" onclick="display('ipad_list');backgroundColor(this.id)" style="background-color:ghostwhite;  color:rgb(58, 83, 155)">iPad</div>
+            <div class="repair_list" id="ipad_list" style="display:none">
+              <div class="flex">
+                <a href="huolto/ipad/näyttö.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/näytönvaihto.png" alt="näytön vaihto" class="repair_icon">
+                    <p>NÄYTÖN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/ipad/akku.html">
+                  <div class="ikoni">
+                    <img src="ikonit/akku.png" alt="akun vaihto" class="repair_icon">
+                    <p>AKUN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="./vesivahinko.html">
+                  <div class="ikoni" id="border-b">
+                    <img src="ikonit/vesivahinko.png" alt="vesivahinko" class="repair_icon">
+                    <p>VESIVAHINKO</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="samsung_hover" >
+            <div  class="brand" id="samsung_brand" onclick="display('samsung_list');backgroundColor(this.id)" style="background-color:ghostwhite; color:rgb(58, 83, 155)">Samsung</div>
+            <div class="repair_list" id="samsung_list" style="display:none">
+
+              <div class="flex">
+                <a href="huolto/samsung/näyttö.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/näytönvaihto.png" alt="näytönvaihto" class="repair_icon">
+                    <p>NÄYTÖN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/samsung/akku.html">
+                  <div class="ikoni">
+                    <img src="ikonit/akku.png" alt="akunvaihto" class="repair_icon">
+                    <p>AKUN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/samsung/takalasi.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/takalasi.png" alt="takalasinvaihto" class="repair_icon">
+                    <p>TAKALASIN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="./vesivahinko.html">
+                  <div class="ikoni">
+                    <img src="ikonit/vesivahinko.png" alt="vesivahinko" class="repair_icon">
+                    <p>VESIVAHINKO</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="oneplus_hover" >
+            <div  class="brand" id="oneplus_brand" onclick="display('oneplus_list');backgroundColor(this.id)" style="background-color:ghostwhite; color:rgb(58, 83, 155)">OnePlus</div>
+            <div class="repair_list" id="oneplus_list" style="display:none">
+              <div class="flex">
+                <a href="huolto/oneplus/näyttö.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/näytönvaihto.png" alt="näytönvaihto" class="repair_icon">
+                    <p>NÄYTÖN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/oneplus/akku.html">
+                  <div class="ikoni">
+                    <img src="ikonit/akku.png" alt="akunvaihto" class="repair_icon">
+                    <p>AKUN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="./vesivahinko.html">
+                  <div class="ikoni" id="border-b">
+                    <img src="ikonit/vesivahinko.png" alt="vesivahinko" class="repair_icon">
+                    <p>VESIVAHINKO</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="honor_hover" >
+            <div  class="brand" id="honor_brand" onclick="display('honor_list');backgroundColor(this.id)" style="background-color:ghostwhite; color:rgb(58, 83, 155)">Honor</div>
+            <div class="repair_list" id="honor_list" style="display:none">
+              <div class="flex">
+                <a href="huolto/Honor/näyttö.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/näytönvaihto.png" alt="näytönvaihto" class="repair_icon">
+                    <p>NÄYTÖN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/Honor/akku.html">
+                  <div class="ikoni">
+                    <img src="ikonit/akku.png" alt="akunvaihto" class="repair_icon">
+                    <p>AKUN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/honor/takalasi.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/takalasi.png" alt="takalasinvaihto" class="repair_icon">
+                    <p>TAKALASIN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="./vesivahinko.html">
+                  <div class="ikoni">
+                    <img src="ikonit/vesivahinko.png" alt="vesivahinko" class="repair_icon">
+                    <p>VESIVAHINKO</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="huawei_hover" >
+            <div  class="brand" id="huawei_brand" onclick="display('huawei_list');backgroundColor(this.id)" style="background-color:ghostwhite; color:rgb(58, 83, 155)">Huawei</div>
+            <div class="repair_list" id="huawei_list" style="display:none">
+              <div class="flex">
+                <a href="huolto/huawei/näyttö.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/näytönvaihto.png" alt="näytönvaihto" class="repair_icon">
+                    <p>NÄYTÖN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/huawei/akku.html">
+                  <div class="ikoni">
+                    <img src="ikonit/akku.png" alt="akunvaihto" class="repair_icon">
+                    <p>AKUN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="huolto/huawei/takalasi.html">
+                  <div class="ikoni" id="border-r">
+                    <img src="ikonit/takalasi.png" alt="takalasinvaihto" class="repair_icon">
+                    <p>TAKALASIN<br>VAIHTO</p>
+                  </div>
+                </a>
+                <a href="./vesivahinko.html">
+                  <div class="ikoni">
+                    <img src="ikonit/vesivahinko.png" alt="vesivahinko" class="repair_icon">
+                    <p>VESIVAHINKO</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="base">
+        <div class="otayhteyttä">
+          <p>OTA YHTEYTTÄ</p>
+          <p>bla bla bla bla bla bla bla bla bla bla bla</p>
+        </div>
+        <p class="city">ESPOO:</p>
+        <div class="box" id="box_espoo">
+          <div class="puhelin_logo">
+
+          </div>
+          <p>000000000</p>
+        </div>
+        <p class="city">VANTAA:</p>
+        <div class="box" id="box_vantaa">
+          <div class="puhelin_logo">
+
+          </div>
+          <p>000000000</p>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="non_static_core_iphone">
+
+
+
+      <div class="repair_information">
+        <div class="top">
+            <div class="name">
+              <h1>VESIVAHINKO</h1>
+            </div>
+            <div class="left">
+              <p>NÄYTÖN VAIHTO KORJAA NÄITÄ ONGELMIA:</p>
+              <p>-rikkinäinen lasi <br>
+                 -rikkinäinen LCD-paneeli <br>
+                 -häiriintynyt kosketus <br>
+                 -pimeä näyttö <br>
+                 -näytössä ilmenee vaaleampia pisteitä
+              </p>
+
+            </div>
+            <div class="right">
+              <p>HYÖDYNNÄ VAKUUTUKSESI</p>
+              <p>Usein koti- tai matkavakuutus kattaa vahingosta johtuvat korjaukset. Kannattaa siis tarkistaa vakuutusyhtiöltäsi, korvaako se pudonneen puhelimen näytön korjauksen kustannuksia. Kuittimme ja ..arviomme kelpaavat lähes kaikille suomalaisille vakuutusyhtiöille.</p>
+
+            </div>
+        </div>
+        <div class="bottom">
+          <div class="icon" >
+            <p>TAKUU A-LUOKKA</p>
+            <img src="../../ikonit/takuu.png" alt="">
+            <p>ELINIKÄINEN</p>
+          </div>
+          <div class="icon">
+            <p>HUOLLON KESTO</p>
+            <img src="../../ikonit/kesto.png" alt="">
+            <p>30MIN</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <script src="fiksit.js"></script>
+
+  </body>
+</html>
