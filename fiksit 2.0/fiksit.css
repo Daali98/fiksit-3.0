@@ -1,0 +1,1194 @@
+
+html {
+
+  margin:0px;
+  padding:0px;
+  background-color: #E5E4E2;
+
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+button:focus, button:hover {outline:0px;}
+
+.static_core_mobile {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  font-family: 'Montserrant', sans-serif;
+  height: 15vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+
+}
+a {
+  text-decoration: none !important;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.navigation {
+  margin-right: 2vw;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+}
+
+.navigation a {
+  padding: 2.5vh 3.5vw;
+  background-color: #0B2545;
+  letter-spacing: 0.5px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  border: 0.5px solid #BFC0C0;
+  font-size: 12px;
+  margin-left: 1.5vw;
+  transition: background 0.3s ease-in-out,
+              border 0.3s ease-in-out,
+              color 0.3s ease-in-out;
+
+
+
+}
+
+.navigation a:hover {
+  background-color: #E5E4E2;
+  color:#102542;
+  text-decoration: none;
+
+}
+
+#logo {
+  width: 15vw;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+
+}
+
+
+.static_core  {
+  width: 18vw;
+  height: 100vh;
+  box-shadow: 3px 0px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  overflow-x: hidden;
+  z-index:99999999999;
+  margin-top: 24vh;
+  position: fixed;
+
+}
+
+.static_core::-webkit-scrollbar {
+  display: none;
+}
+
+
+.static_core::-moz-scrollbar {
+  display: none;
+}
+
+
+.brand_hover{
+  width : inherit;
+}
+
+#brand_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18vw;
+  height: 9vh;
+  margin-top: 15vh;
+  background-color: #0B2545;
+  position: fixed;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #FCFCFC;
+  padding: 0;
+
+
+}
+
+#brand_button p {
+  margin: 0px;
+  font-size: 13px;
+}
+
+#arrow_0 {
+  height: 3.5vh;
+  transform: rotate(0deg);
+  transition: all 300ms ease-in-out;
+}
+
+
+#brand_model {
+  width: inherit;
+  font-family: 'Ubuntu', sans-serif;
+  transition: max-height 3000ms;
+  z-index:999;
+  transition: all 300ms ease-in-out;
+}
+
+.iphone_hover, .ipad_hover, .samsung_hover, .oneplus_hover, .honor_hover, .huawei_hover {
+  width:inherit;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;1
+  width: inherit;
+  height: 6vh;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  z-index: 9999;
+  transition: all 200ms ease-in-out;
+
+}
+
+.brand:hover {
+  background-color: #E5E4E2 !important;
+  color:#102542;
+  box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+}
+
+#iphone_brand, #ipad_brand, #samsung_brand, #oneplus_brand, #honor_brand, #huawei_brand {
+  background-color: #FFFFFF;
+  color:#102542;
+}
+
+.repair_list {
+  background-color: #E5E4E2;
+  z-index: 99999999;
+  height:auto;
+}
+
+#iphone_list {
+  display: none;
+  width: inherit;
+  transition: all 1s ease-in-out;
+}
+
+#samsung_list {
+  display: none;
+  width: inherit;
+
+}
+
+#oneplus_list {
+
+  display: none;
+  justify-content: flex-start;
+  width: inherit;
+}
+
+#honor_list {
+  display: none;
+
+  width: inherit;
+}
+
+#huawei_list {
+  display: none;
+
+  width: inherit;
+}
+
+#ipad_list{
+  display: ;
+
+  width: inherit;
+}
+
+#iphone_list, #honor_list, #samsung_list,  a {
+  text-decoration: none;
+}
+
+.ikoni img {
+  width: 70px;
+}
+
+.ikoni {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: none;
+  width: 8.9vw;
+  height: 9vw;
+  transition: all 200ms ease-in-out;
+
+
+}
+
+.ikoni p {
+  margin: 1px;
+  transform: translate(0px, -9px);
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.7vw;
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E5E5E;
+  letter-spacing: 1px;
+}
+
+.ikoni:hover {
+  background:  #FFFFFF;
+  box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.base {
+  display: flex;
+  border-top: 1px solid #0B2545;
+  justify-content: flex/flex-start;
+  flex-direction: column;
+  align-items: center;
+  z-index:99999999999;
+  height: 100vh;
+  background-color: white;
+}
+
+.base img {
+  width: 16vw;
+  margin-top: 2vh;
+  box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+.image_container {
+  background-size: 16vw 30vh;
+  width: 16vw;
+  height: 30vh;
+  margin-top: 2vh;
+  box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.top_text {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 2vh;
+  color: white;
+}
+.bottom_text {
+  color: #102542;
+  margin-bottom: 1vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.basem {
+  display: none;
+}
+
+
+.otayhteyttä{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+
+}
+
+.otayhteyttä p {
+  margin-top: 10px;
+  padding: 0px;
+  transform-style: justify;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+  flex:wrap;
+}
+
+.city {
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  letter-spacing: 1px;
+  padding-top: 40px;
+}
+
+
+.puhelin_logo {
+  height: 30px;
+  width: 30px;
+  background: #B4C5E4;
+}
+.non_static_core {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: calc(100% - 300px);
+  height: 85vh ;
+  overflow-y: scroll;
+}
+
+.non_static_core_iphone {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  flex: wrap;
+  width: 81vw;
+  overflow: auto;
+  margin-top: 15vh;
+  background-color: #E5E4E2;
+
+}
+
+.non_static_core {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  flex: wrap;
+  width: 82vw;
+  overflow: hidden;
+  margin-top: 15vh;
+  background-color: #E5E4E2;
+}
+
+.icon, .icon_border {
+  display: flex;
+  height: 33vh;
+  width: 25vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.icon img, .icon_border img {
+  width: 7vw;
+}
+
+
+.icon p, .icon_border p{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.border {
+  border-right: 0.5px solid #BFC0C0;
+  border-left: 0.5px solid #BFC0C0;
+
+}
+
+.text_box {
+  height: 50vh;
+  width: 45vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-left: 0.5px solid #BFC0C0;
+  border-right: 0.5px solid #BFC0C0;
+}
+
+
+
+.name {
+  width: inherit;
+  height: 6vh;
+  background-color: #0B2545;
+  text-align: center;
+  border-bottom: 1px solid #0B2545;
+}
+
+h2 {
+  font-size: 12px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #102542;
+  font-weight: normal;
+}
+.name h1 {
+  margin: 0px;
+  position: relative;
+  font-size: 16px;
+  text-decoration: none;
+  color: #FCFCFC;
+  transform: translate(-50%, -50%);
+  font-family: 'Montserrat', sans-serif;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+
+}
+
+.top {
+  height:  45vh;
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0 10px 20px -1px rgba(0,0,0,0.19), 0 6px 6px -1px rgba(0,0,0,0.23);
+  background-image: image('mid.png');
+}
+
+.top img {
+  float:top;
+  height: 38vh;
+  width: calc(76vw/3);
+
+
+
+}
+.bullet {
+  width:auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 1vh;
+}
+
+.bullet p {
+  padding-left: 1vw;
+  margin: 0px;
+  font-size: 11px;
+}
+
+.bullet img {
+  width: 4vh;
+  height: 4vh;
+}
+.bottom {
+  height: 35vh;
+  width: inherit;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+  border-top: 0.5px solid #BFC0C0;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(76vw/3);
+  height: 36vh;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.left p {
+  font-size: 11px;
+  margin-left: 1vw;
+}
+
+.left h2 {
+  margin-left: 1vw;
+  margin-top: 5vh
+}
+.right {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: calc(76vw/3);
+  height: 36vh;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+
+}
+
+
+
+
+.store_card {
+  width: 38vw;
+  height: 78vh;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.store_card_img {
+  width: 35vw;
+  height: 30vh;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.location_information {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.right_li h3, .left_li h3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.left_li {
+  margin-left: 2vw;
+}
+
+.osoite img {
+  width: 2vw;
+  height: 4vh;
+
+}
+
+.osoite {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20vw;
+}
+
+address {
+  margin-top: 1rem;
+  margin-bottom: ;
+}
+
+
+.window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 77vh;
+  width: 78.2vw;
+  background-color: white;
+  border: 1px solid #BFC0C0;
+  border-collapse: collapse;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  overflow: hidden;
+
+
+}
+
+.window_questions {
+  display: flex;
+  flex-direction: column;
+  height: 76vh;
+  width: 78.2vw;
+  background-color: #FFF8F0;
+  border-collapse: collapse;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  overflow: hidden;
+
+
+}
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+  text-align: left;
+  height: 10vh;
+  outline-style:none;
+  border: none;
+  border-top: 1px solid #0B2545;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px;
+  transition: all 150ms ease-in-out;
+}
+
+#q0, #q1, #q2, #q3, #q4, #q5, #q6, #q7 {
+  background-color: #FFF8F0;
+  color:#102542;
+}
+
+
+.questions p {
+  width: auto;
+  padding: 0px;
+  padding-left: 2vw;
+  margin: 0px;
+}
+.plus_minus img {
+  height: 6vh;
+  padding-right: 2vw;
+}
+
+.awnsers {
+  background-color: #FFFFFF;
+  transition: height 300ms ease-in-out;
+  height: 0vh;
+  color: #102542;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+  font-size: 12px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.awnsers p {
+  padding: 0px;
+  margin: 0px;
+  padding-left: 2vw;
+  padding-right: 1vw;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+      /* Thes/bullets/indicators */
+.dot {
+  height: 18px;
+  width: 18px;
+  margin: 0 2px;
+  margin-top: 1vh;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border: 1px solid #BFC0C0;
+}
+
+.active, .dot:hover {
+  background-color:#0B2545;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#screen_protector {
+  height:auto;
+}
+
+.repair_information {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vh;
+  height: 78.5vh;
+  width: 78vw;
+  background-color: white;
+  border-collapse: collapse;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.price_list {
+  margin-top: 5vh;
+  margin-bottom: 4vh;
+  height: auto;
+  width: auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+#price_name {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0B2545;
+  height: 5.5vh;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FCFCFC;
+}
+
+.right_text {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2vw;
+}
+
+.left_text {
+  width: 10vw;
+  display: flex;
+  padding-left: 5vw;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.model {
+  display: flex;
+  width: 55vw;
+  height: 5.5vh;
+  justify-content: space-around;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  background: #FFFFFF;
+  color: #0B2545;
+  border-bottom: 0.5px solid  #BFC0C0;
+}
+
+
+
+.model:hover {
+  background-color: #FFF8F0;
+  box-shadow: 0 0.5px 9999px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.non_static_core_iphone ::-webkit-scrollbar {
+  display: none;
+}
+
+
+::-webkit-scrollbar {
+  width: 1vw;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #0b2545;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0b2545;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #0b2545;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+
+#brand_button_mobile, #static_core_mobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+
+html {
+  background-color: #E5E4E2;
+}
+
+#menu {
+  width: 15vw;
+
+}
+
+#navigation_button {
+  max-margin
+}
+#navigation_mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+#navigation_mobile a {
+  display: flex;
+  align-items: center;
+  padding-left: 3vw;
+  background-color: #0B2545;
+  letter-spacing: 0.5px;
+  color: white;
+  width:100vw;
+  height: 7vh;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 0.5px solid #BFC0C0;
+  font-size: 12px;
+  margin: 0px;
+  transition: background 0.3s ease-in-out,
+              border 0.3s ease-in-out,
+              color 0.3s ease-in-out;
+}
+
+#logo {
+  height: 11vh;
+  width: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  margin-left: 0px;
+
+}
+
+#brand_button, .static_core, .header {
+  display: none;
+}
+
+#static_core_mobile {
+  display: block;
+  position: fixed;
+  z-index: 999999;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: white;
+  width: 100vw;
+  height: auto;
+  box-shadow: 3px 0px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#header_mobile {
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#header_box {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+
+#brand_button_mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 7vh;
+  background-color: #0B2545;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #FCFCFC;
+  padding: 0;
+    box-shadow: 3px 0px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#brand_button_mobile p {
+  margin: 0px;
+  font-size: 13px;
+}
+
+#brand_model_mobile {
+  width: inherit;
+  font-family: 'Ubuntu', sans-serif;
+  z-index:-999;
+}
+
+#arrow_1 {
+  height: 3.5vh;
+  transform: rotate(0deg);
+  transition: all 300ms ease-in-out;
+}
+.repair_list_mobile {
+  height: auto;
+  background-color: #FFFFFF;
+  z-index: 99999999;
+}
+
+.brand {
+  border-bottom: 1px solid #0B2545;
+  height: 8vh;
+}
+.brand:hover {
+  background-color: #FFFFFF;
+}
+
+.ikoni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 49vw;
+  height: 49vw;
+  border-collapse: collapse;
+  margin: 0px;
+}
+
+.ikoni img {
+  width: 20vw;
+
+}
+
+.ikoni p {
+  margin: 1px;
+  transform: translate(0px, 0px);
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E5E5E;
+  letter-spacing: 1px;
+}
+
+.brand {
+  font-family: 'Lato';
+  text-align: center;
+  height: 10vh;
+}
+
+.brand_model {
+  height:50vh !important;
+  overflow-y: scroll;
+}
+
+
+#iphone_list, #samsung_list, #ipad_list, #oneplus_list, #honor_list, #huawei_list {
+  width: 100vw;
+
+}
+
+
+.base {
+  display: none;
+}
+
+
+.non_static_core_iphone {
+  display: flex;
+  align-items: center;
+  margin-top: 20vh;
+  width: 100vw;
+
+}
+
+.non_static_core {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20vh;
+  width: 100vw;
+  height: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.window_questions {
+  width: 95vw;
+  height: auto;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+.repair_information {
+  width: 95vw;
+  height: auto;
+}
+
+.top {
+  display: flex;
+  width: inherit;
+  height: auto;
+  flex-wrap: wrap;
+  box-shadow: none;
+}
+
+#banner {
+  display: none;
+}
+
+.name {
+  width: inherit;
+}
+
+.left{
+  width: inherit;
+  height: auto;
+  border-bottom: 0.5px solid #BFC0C0;
+}
+
+.left p, .left h2, .right p, .right h2 {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.left h2, .right h2 {
+  margin-top: 3vh;
+}
+.bullet {
+  margin-left: 5vw;
+}
+.right {
+  width: inherit;
+  height: auto;
+  border-left: none;
+  border-bottom: 0.5px solid #BFC0C0;
+}
+
+.bottom {
+  width: 95vw;
+  height: auto;
+  flex-wrap: wrap;
+  border-top: none;
+}
+
+.icon {
+  height: auto;
+  width: inherit;
+  border-bottom: 0.5px solid #BFC0C0;
+}
+
+.icon_border {
+  width: inherit;
+  height: auto;
+  border-bottom: 0.5px solid #BFC0C0;
+}
+
+.icon img, .icon_border img {
+  width: 30vw;
+}
+
+
+
+.price_list {
+  width: 95vw;
+  margin-bottom: 2.5vh;
+  font-size: 14px;
+
+}
+
+.right_text  {
+  width: 30vw;
+
+}
+.model {
+  width:inherit;
+  justify-content: space-around;
+}
+
+.left_text {
+  width: 50vw;
+  text-align: left;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.window {
+  display: flex;
+  justify-content: center;
+  margin-top: 1vh;
+  height: 70vh !important;
+  width: 95vw;
+  background-color: white;
+  border: 1px solid #BFC0C0;
+  border-collapse: collapse;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  overflow: hidden;
+
+
+}
+
+.window img {
+  height:auto;
+  width: 95vw;
+}
+
+}
+
+
+box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);
+#E6EAEA
+
+5E5E5E
